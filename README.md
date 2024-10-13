@@ -1,2 +1,1 @@
-# CogvideX-Interpolation
-Keyframe Interpolation with CogvideoX
+## CogvideX-Interpolation: Keyframe Interpolation with CogvideoX
