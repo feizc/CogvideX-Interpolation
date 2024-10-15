@@ -1,5 +1,7 @@
 ## CogvideX-Interpolation: Keyframe Interpolation with CogvideoX
 
+CogVideoX-Interpolation is a modified pipeline based on the CogVideoX structure, designed to provide more flexibility in keyframe interpolation generation. 
+
 <table class="center">
     <tr style="font-weight: bolder;text-align:center;">
         <td>Input frame 1</td>
