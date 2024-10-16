@@ -112,7 +112,7 @@ export_to_video(video_save_path, fps=8)
 You can prepare the video-text pair data as [formation](https://github.com/feizc/CogvideX-Interpolation/blob/main/cogvideox_interpolation/datasets.py) and our experiments can be repeated by simply run the training scripts as:
 
 ```
-sh train.sh 
+sh finetune.sh 
 ```
 
 Note that we use deepspeed zero3 and fine tune with all parameters instead of lora. 
