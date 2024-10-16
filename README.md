@@ -106,6 +106,7 @@ You can prepare the video-text pair data as [formation](https://github.com/feizc
 ```
 sh train.sh 
 ```
+Note that we use deepspeed zero3 and fine tune with all parameters without lora. 
 
 ## Knowledge 
 
