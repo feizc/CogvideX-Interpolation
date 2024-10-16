@@ -39,13 +39,13 @@ CogVideoX-Interpolation is a modified pipeline based on the CogVideoX structure,
   	</tr>
   <tr>
 	  <td>
-	    <img src=cases/8.jpg width="250">
+	    <img src=cases/7.jpg width="250">
 	  </td>
 	  <td>
-	    <img src=cases/88.jpg width="250">
+	    <img src=cases/77.jpg width="250">
 	  </td>
       <td>
-	    A man runs on a red track, marked with white lane lines, wearing a dark blue and white athletic outfit and yellow shoes. He is in a competitive environment, with blurred figures in the background. 
+	    A man in a blue suit is laughing.
 	  </td>
 	  <td>
 	    <img src=cases/gen.mp3 width="250">
