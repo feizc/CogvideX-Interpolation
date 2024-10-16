@@ -2,6 +2,7 @@
 
 CogVideoX-Interpolation is a modified pipeline based on the CogVideoX structure, designed to provide more flexibility in keyframe interpolation generation. 
 
+
 <table class="center">
     <tr style="font-weight: bolder;text-align:center;">
         <td>Input frame 1</td>
@@ -20,7 +21,7 @@ CogVideoX-Interpolation is a modified pipeline based on the CogVideoX structure,
 	    A group of people dance in the street at night, forming a circle and moving in unison, exuding a sense of community and joy. A woman in an orange jacket is actively engaged in the dance, smiling broadly. The atmosphere is vibrant and festive, with other individuals participating in the dance, contributing to the sense of community and joy. 
 	  </td>
 	  <td>
-	    <img src=cases/gen.mp3 width="250">
+	    <video src=cases/gen_5.mp4 width="250">
 	  </td>
   	</tr>
   	<tr>
@@ -34,7 +35,7 @@ CogVideoX-Interpolation is a modified pipeline based on the CogVideoX structure,
 	    A man in a white suit stands on a stage, passionately preaching to an audience. The stage is decorated with vases with yellow flowers and a red carpet, creating a formal and engaging atmosphere. The audience is seated and attentive, listening to the speaker. 
 	  </td>
 	  <td>
-	    <img src=cases/gen.mp3 width="250">
+	    <image src=cases/gen_6.mp4 width="250">
 	  </td>
   	</tr>
   <tr>
@@ -48,7 +49,7 @@ CogVideoX-Interpolation is a modified pipeline based on the CogVideoX structure,
 	    A man in a blue suit is laughing.
 	  </td>
 	  <td>
-	    <img src=cases/gen.mp3 width="250">
+	    <img src=cases/gen_7.mp4 width="250">
 	  </td>
   	</tr>
 </table >
