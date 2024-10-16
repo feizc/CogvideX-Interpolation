@@ -1,5 +1,12 @@
 ## CogvideX-Interpolation: Keyframe Interpolation with CogvideoX
 
+<div align="left">
+    <a href="https://huggingface.co/feizhengcong/CogvideoX-Interpolation"><img src="https://img.shields.io/static/v1?label=Models&message=HuggingFace&color=red"></a> &ensp;
+    <a href="https://huggingface.co/datasets/feizhengcong/CogvideoX-Interpolation"><img src="https://img.shields.io/static/v1?label=Dataset&message=HuggingFace&color=blue"></a> &ensp;
+    <a href="https://huggingface.co/feizhengcong/CogvideoX-Interpolation"><img src="https://img.shields.io/static/v1?label=Demo&message=HuggingFace&color=green"></a> &ensp;
+</div>
+
+
 CogVideoX-Interpolation is a modified pipeline based on the CogVideoX structure, designed to provide more flexibility in keyframe interpolation generation. 
 
 
@@ -102,13 +109,15 @@ export_to_video(video_save_path, fps=8)
 ```
 
 ## Light-weight finetuing
-You can prepare the video-text pair data as [formation](https://github.com/feizc/CogvideX-Interpolation/blob/main/cogvideox_interpolation/datasets.py) and run the training scripts as:
+You can prepare the video-text pair data as [formation](https://github.com/feizc/CogvideX-Interpolation/blob/main/cogvideox_interpolation/datasets.py) and our experiments can be repeated by simply run the training scripts as:
+
 ```
 sh train.sh 
 ```
+
 Note that we use deepspeed zero3 and fine tune with all parameters instead of lora. 
 
-## Knowledge 
+## Acknowledgments 
 
 The codebase is based on the awesome [CogvideoX](https://github.com/THUDM/CogVideo) and [diffusers](https://github.com/huggingface/diffusers/blob/main/src/diffusers/pipelines/cogvideo/pipeline_cogvideox.py) repos.
 
