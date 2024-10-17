@@ -73,7 +73,7 @@ pip install -r requirement.txt
 
 
 ### 2. Download checkpoint
-Download the finetuned [checkpoint](huggingface), and put it with model path variable. 
+Download the finetuned [checkpoint](https://huggingface.co/feizhengcong/CogvideoX-Interpolation), and put it with model path variable. 
 
 ### 3. Launch the inference script!
 The example input keyframe pairs are in `cases` folder. 
@@ -115,7 +115,13 @@ You can prepare the video-text pair data as [formation](https://github.com/feizc
 sh finetune.sh 
 ```
 
-Note that we use deepspeed zero3 and fine tune with all parameters instead of lora. 
+Note that we fine tune with all parameters instead of lora. 
+
+We also provide the training data in Huggingface, where we first filter with fps and resolution and then auto-labled with advanced MLLM. 
+
+It takes about one week with 8 * A100 GPU for finetuning. 
+
+
 
 ## Acknowledgments 
 
