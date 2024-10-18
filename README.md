@@ -4,6 +4,7 @@
     <a href="https://huggingface.co/feizhengcong/CogvideoX-Interpolation"><img src="https://img.shields.io/static/v1?label=Models&message=HuggingFace&color=red"></a> &ensp;
     <a href="https://huggingface.co/datasets/feizhengcong/CogvideoX-Interpolation"><img src="https://img.shields.io/static/v1?label=Dataset&message=HuggingFace&color=blue"></a> &ensp;
     <a href="https://huggingface.co/feizhengcong/CogvideoX-Interpolation"><img src="https://img.shields.io/static/v1?label=Demo&message=HuggingFace&color=green"></a> &ensp;
+	<a href="https://replicate.com/lucataco/cogvideox-interpolation"><img src="https://replicate.com/lucataco/cogvideox-interpolation/badge"></a> &ensp;
 </div>
 
 
