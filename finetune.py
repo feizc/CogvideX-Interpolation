@@ -171,6 +171,7 @@ def parse_args():
             " training using `--resume_from_checkpoint`."
         ),
     )
+    parser.add_argument("--seed", type=int, default=42, help="A seed for reproducible training.")
     parser.add_argument("--num_train_epochs", type=int, default=100)
     parser.add_argument("--adam_beta1", type=float, default=0.9, help="The beta1 parameter for the Adam optimizer.")
     parser.add_argument("--adam_beta2", type=float, default=0.999, help="The beta2 parameter for the Adam optimizer.")
@@ -245,6 +246,8 @@ def main():
         log_with=args.report_to,
         project_config=accelerator_project_config,
     )
+
+    set_seed(args.seed) 
 
     # Make one log on every process with the configuration for debugging.
     logging.basicConfig(
@@ -324,7 +327,8 @@ def main():
     text_encoder.to(accelerator.device)
 
     transformer.train()
-    trainable_modules = ['ff.net', 'pos_embed', 'attn2', 'proj_out', 'timepositionalencoding', 'h_position', 'w_position']
+    # https://huggingface.co/THUDM/CogVideoX-5b-I2V/blob/main/transformer/diffusion_pytorch_model.safetensors.index.json 
+    trainable_modules = ['ff.net', 'to_q', 'to_v', 'proj_out',]
     trainable_modules_low_learning_rate = []
 
     for name, param in transformer.named_parameters():
