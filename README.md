@@ -121,6 +121,11 @@ We also provide the training data in Huggingface, where we first filter with fps
 
 It takes about one week with 8 * A100 GPU for finetuning. 
 
+Finally, we provide some interesting observations about seleting which parameters to trainable groups:
+
+![static](https://github.com/user-attachments/assets/dba7ec67-28b9-4979-9f5f-cb03f0e07027)
+
+
 
 
 ## Acknowledgments 
