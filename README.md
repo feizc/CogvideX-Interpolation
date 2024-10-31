@@ -115,7 +115,7 @@ You can prepare the video-text pair data as [formation](https://github.com/feizc
 sh finetune.sh 
 ```
 
-Note that we fine tune with all parameters instead of lora. 
+Note that we fine tune with part of selected parameters instead of lora. 
 
 We also provide the training data in Huggingface, where we first filter with fps and resolution and then auto-labled with advanced MLLM. 
 
